@@ -244,4 +244,17 @@ header {
 }
 .section-projects--filters li:first-child {
     border-left: 0;
+
+}
+.section-projects--photos {
+    width: 100vw;
+    max-width: 1140px;
+    margin-top: 20px;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section-projects--photo {
+    width: 280px;
 }
