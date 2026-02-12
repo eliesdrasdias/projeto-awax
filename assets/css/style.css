@@ -413,5 +413,23 @@ header {
     background-color: #B28756;
 }
 .slide-client .quote {
-    margin-top: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.client-comment {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+.default.v-light {
+    color: #FFF;
+}
+.section-enterprise--photos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-enterprise--photoarea img {
+    width: 90px;
+    height: auto;
 }
