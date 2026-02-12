@@ -600,3 +600,38 @@ header {
     display: flex;
     justify-content: center;
 }
+.section-facts {
+    display: flex;
+}
+.section-fact {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+}
+.section-fact h2 {
+    color: #B28756;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.section-fact h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    min-height: 45px;
+}
+.section-fact h2::after {
+    content: '';
+    display: block;
+    margin: auto;
+    width: 10px;
+    height: 2px;
+    background-color: #7e7e7e;
+}
+.section-fact p {
+    display: inline-block;
+    justify-content: center;
+    width: 170px;
+    height: auto;
+    color: #7e7e7e;
+    text-align: justify;
+    margin-top: 12px;
+}
