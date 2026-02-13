@@ -610,7 +610,7 @@ header {
 }
 .section-fact h2 {
     color: #B28756;
-    font-size: 30px;
+    font-size: 40px;
     padding-bottom: 15px;
 }
 .section-fact h4 {
@@ -634,4 +634,58 @@ header {
     color: #7e7e7e;
     text-align: justify;
     margin-top: 12px;
+}
+.section-social,
+.social-share {
+    display: flex;
+    justify-content: center;
+    color: #CCC;
+    max-width: 640px;
+    margin: auto;
+}
+.share {
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.share img {
+    margin-right: 10px;
+}
+.social {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.social .twitter,
+.social .linkedin,
+.social .facebook,
+.social .googleplus,
+.social .pinterest {
+    display: flex;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.social .twitter {
+    background-color: #33c4f0;
+}
+.social .linkedin {
+    background-color: #137cb5;
+}
+.social .facebook {
+    background-color: #326497;
+}
+.social .googleplus {
+    background-color: #e94138;
+}
+.social .pinterest {
+    background-color: #b91d2a;
+}
+.social img {
+    margin: auto;
 }
